@@ -1,0 +1,15 @@
+   66  cd ..
+   67  cd newfolder
+   68  ssh gic-sar-vichada@192.168.21.251
+   69  ssh gic-sar-vichada@192.168.20.231
+   70  ssh gic-sar-vichada@192.168.20.227
+   71  sudo apt install gcc
+   72  gcc --version
+   73  nano --version
+   74  sudo apt install nano
+   75  mkdir -p ~/class_activity2
+   76  cd ~/class_activity2
+   77  nano forkchild.c
+   78  gcc -o forkchild forkchild.c
+   79  ./forkchild > result_forkchild.txt
+   80  history | tail -n 15 > command_used_forkchild.txt

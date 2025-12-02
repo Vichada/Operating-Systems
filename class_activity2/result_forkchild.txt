@@ -1,0 +1,6 @@
+total 20
+-rwxr-xr-x 1 sar-vichada sar-vichada 16216 Nov 19 10:41 forkchild
+-rw-r--r-- 1 sar-vichada sar-vichada   684 Nov 19 10:41 forkchild.c
+-rw-r--r-- 1 sar-vichada sar-vichada     0 Nov 19 10:41 result_forkchild.txt
+Parent process, child PID = 781
+Child finished execution.

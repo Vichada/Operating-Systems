@@ -1,0 +1,349 @@
+    1  ssh gic-sar-vichada@192.168.21.251
+    2  lsb_release -a
+    3  cat/etc/os-release
+    4  cat /etc/os-release
+    5  ls
+    6  ls-l
+    7  ls -l
+    8  ls -a
+    9  whoami
+   10  pwd
+   11  history
+   12  echo $HISTSIZE
+   13  echo $USER
+   14  echo $PATH
+   15  man ls
+   16  echo "Hello"; echo "World"
+   17  echo "Hi" ; echo "girl"
+   18  mkdir newfolder && cd newfolder
+   19  cd unknownfolder || echo "Folder not found"
+   20  0
+   21  q
+   22  ls
+   23  ls -l
+   24  ls -a
+   25  pwd
+   26  mkdir LabFiles
+   27  touch LabFile/doc1.txt
+   28  touch LabFiles/doc1.txt
+   29  touch LabFiles/doc2.txt
+   30  ls LabFiles
+   31  whoami
+   32  pwd
+   33  history | tail -5
+   34  history | tail -10
+   35  echo $HISTSIZE
+   36  history
+   37  echo $PATH
+   38  echo $HOME
+   39  echo $SHELL
+   40  ECHO $LANG
+   41  echo $TERM
+   42  ech $ PWD
+   43  echo $PWD
+   44  echo $LANG
+   45  cd ..
+   46  ls newfolder
+   47  sudo apt-get update
+   48  sudo apt-get install gcc
+   49  apt list -a python3.*
+   50  sudo apt-get install --only-upgrade python3.12 python3.12-minimal python3.12-dev python3.12-venv python3.12-doc python3.12-dbg
+   51  nano --version
+   52  sudo apt-get install --only-upgrade python3.12 python3.12-minimal python3.12-dev python3.12-venv python3.12-doc python3.12-dbg
+   53  sudo apt-get remove nano
+   54  sudo apt-get purge nano
+   55  nano --version
+   56  sudo apt-get install tree
+   57  tree
+   58  tree -d
+   59  tree -L 2
+   60  history
+   61  tree -L 2
+   62  sudo apt-get install gcc
+   63  pwd
+   64  cd -
+   65  cd ~
+   66  cd ..
+   67  cd newfolder
+   68  ssh gic-sar-vichada@192.168.21.251
+   69  ssh gic-sar-vichada@192.168.20.231
+   70  ssh gic-sar-vichada@192.168.20.227
+   71  sudo apt install gcc
+   72  gcc --version
+   73  nano --version
+   74  sudo apt install nano
+   75  mkdir -p ~/class_activity2
+   76  cd ~/class_activity2
+   77  nano forkchild.c
+   78  gcc -o forkchild forkchild.c
+   79  ./forkchild > result_forkchild.txt
+   80  history | tail -n 15 > command_used_forkchild.txt
+   81  tree
+   82  ./forkchild
+   83  cat forkchild.c
+   84  ssh gic-sar-vichada@192.168.21.152
+   85  ls -l
+   86  ls
+   87  mkdir Lab1
+   88  cd Lab1
+   89  mkdir LabFiles
+   90  cd LabFiles
+   91  Touch docx1.txt
+   92  touch docx1.txt
+   93  touch docx2.txt
+   94  ls
+   95  cd ..
+   96  cd ~
+   97  ls
+   98  cd newfolder
+   99  ls
+  100  cd ..
+  101  Lab1
+  102  cd Lab1
+  103  ls
+  104  cd LabFiles
+  105  ls
+  106  cd ~
+  107  rm -r newfolder
+  108  ls
+  109  tree
+  110  mkdir Lab2
+  111  mkdir Lab3
+  112  mkdir Lab4
+  113  ls
+  114  class_activity1
+  115  mkdir class_activity1
+  116  mkdir class_activity3
+  117  mkdir Desktop
+  118  mkdir Document
+  119  ls
+  120  cd Lab2
+  121  mkdir etc
+  122  cd etc
+  123  mkdir network
+  124  cd network
+  125  mkdir interfaces
+  126  cd interfaces
+  127  cd ~/Lab2/
+  128  cd etc
+  129  mkdir systemd
+  130  cd systemd
+  131  touch resolved.conf
+  132  mkdir system
+  133  touch system.conf
+  134  mkdir user
+  135  touch user.conf
+  136  tree
+  137  cd ~/../
+  138  cd ~/Lab2/etc/
+  139  mkdir udev
+  140  cd udev
+  141  mkdir rules.d
+  142  touch udev.conf
+  143  cd ~
+  144  cd ~/Lab2/etc/network/
+  145  rmdir interfaces
+  146  tree
+  147  touch interfaces
+  148  cd ~
+  149  tree
+  150  cd Lab2
+  151  mkdir home
+  152  cd home
+  153  mkdir lost+found
+  154  mkdir user
+  155  cd user
+  156  mkdir Documents
+  157  cd Documents
+  158  mkdir TP01
+  159  cd TP01
+  160  touch file.txt
+  161  cd file.txt
+  162  echo "I am Sar Vichada" > file.txt
+  163  cd..
+  164  cd ../
+  165  cd TP01
+  166  cat file.txt
+  167  cd ~/
+  168  tree
+  169  cd Lab3
+  170  mkdir CopyingFolder
+  171  cd Lab3
+  172  ls
+  173  tree
+  174  mkdir Documents
+  175  cd Documents
+  176  cd ..
+  177  cd CopyingFolder
+  178  touch copied.txt
+  179  tree
+  180  cd ..
+  181  cd CopyingFolder
+  182  cp copied.txt/Documents
+  183  cp copied.txt/Documents/
+  184  cp copied.txt/~Lab3/Documents/
+  185  cp copied.txt /Documents/
+  186  cp copied.txt ~/Lab3/Documents/
+  187  cd ..
+  188  tree
+  189  cd Documents
+  190  touch one.txt two.txt three.txt four.txt five.txt
+  191  tree
+  192  cp *.txt /~Lab3/CopyingFolder/
+  193  cp *.txt ~/Lab3/CopyingFolder/
+  194  cd ..
+  195  tree
+  196  cd CopyingFolder
+  197  cd ..
+  198  mkdir Desktop
+  199  cd CopyingFolder
+  200  cp *.txt ~/Lab3/Desktop
+  201  cd ..
+  202  tree
+  203  cd Documents
+  204  touch one_document.txt, two_document.txt three_document.txt four_document.txt five_document.txt
+  205  echo "1" > one_document.txt
+  206  echo "2" > two_document.txt
+  207  echo "3" > three_document.txt
+  208  echo "4" > four_document.txt
+  209  echo "5" > five_document.txt
+  210  cat *.txt
+  211  mv one_document.txt document_un.txt
+  212  mv two_document.txt document_deux.txt
+  213  mv three_document.txt documnet_trois.txt
+  214  mv four_document.txt document_quatre.txt
+  215  mv five
+  216  mv five_document.txt document_cinq.txt
+  217  mv documnet_trois.txt document_trois.txt
+  218  tree
+  219  cd ..
+  220  mkdir MoveFolder
+  221  cd Document
+  222  cd Documents
+  223  mv *.txt ../MoveFolder
+  224  ls ../MoveFolder
+  225  cd ..
+  226  ls
+  227  tree
+  228  cd Documents
+  229  rm one_document.txt,
+  230  tree
+  231  cd ..
+  232  tree
+  233  cd Desktop
+  234  mkdir FrenchFolder
+  235  cd ..
+  236  cd MoveFoler
+  237  cd MoveFolder
+  238  mv *.txt ~/Lab3/Desktop/FrenchFolder/
+  239  ls
+  240  tree
+  241  cd ..
+  242  tree
+  243  tree -a > ~/Lab3/tree_structure_before_remove.txt
+  244  cat > ~/Lab3/tree_structure_before_remove.txt
+  245  cat ~/Lab3/tree_structure_before_remove.txt
+  246  tree
+  247  tree -a > ~/Lab3/tree_structure_before_remove.txt
+  248  cat ~/Lab3/tree_structure_before_remove.txt
+  249  cd ..
+  250  rm ~/Lab3/Desktop/FrenchFolder/document_deux.txt
+  251  tree
+  252  cd Lab3
+  253  tree
+  254  cd Documents
+  255  mkdir EmptyFolder
+  256  cd EmptyFolder
+  257  touch deletefile.txt
+  258  mkdir DeleteFolder
+  259  tree
+  260  rm -d DeleteFolder
+  261  cd ..
+  262  tree
+  263  rm -d EmptyFolder
+  264  rm -r EmptyFolder
+  265  tree
+  266  cd ~/Lab3/Desktop/FrenchFolder/
+  267  rm *
+  268  tree
+  269  cd ..
+  270  tree
+  271  tree -a ~/Lab3 > ~/Lab3/tree_structure_after_remove.txt
+  272  cat ~/Lab3/tree_structure_after_remove.txt
+  273  history > ~/Lab3/wildcardex1_command_history.txt
+  274  cat ~/Lab3/wildcardex1_command_history.txt
+  275  mkdir wildcard_lab
+  276  cd wildcardlab
+  277  cd wildcard_lab
+  278  touch a.txt b.txt ab.txt abc.txt xyz.log data.csv
+  279  tree
+  280  ls *.txt
+  281  ls *.log
+  282  ls?.txt
+  283  ls ?.txt
+  284  cd ..
+  285  mkdir backup
+  286  cp *.txt ~/lab3/backup/
+  287  cp *.txt ~/Lab3/backup/
+  288  cp ???.* ~/Lab3/backup/
+  289  tree
+  290  cd backup
+  291  rm *
+  292  cd ..
+  293  tree
+  294  cd wildcard_lab
+  295  cp *.txt ~/Lab3/backup/
+  296  cd ..
+  297  tree
+  298  cd wildcard_lab
+  299  cp ???.* ~/Lab3/backup
+  300  cd ..
+  301  cd wildcard_lab
+  302  rm ?.*
+  303  cd ..
+  304  cd backup
+  305  rm *
+  306  cd ..
+  307  cd wildcard_lab
+  308  touch file{1,2,3}.txt
+  309  ls file[1-3].txt
+  310  cd ..
+  311  history > ~/Lab2/wildcardex3_command_history.txt
+  312  cd ..
+  313  cat ~/Lab2/wiildcardex3_command_history.txt
+  314  cat ~/Lab2/wildcardex3_command_history.txt
+  315  tree
+  316  cd Lab3
+  317  mkdir logs
+  318  cd logs
+  319  log2023010{1,2,3,4,5}.txt
+  320  touch log2023010{1,2,3,4,5}.txt
+  321  ls
+  322  ls log202301*.txt
+  323  ls log2023010[135].txt
+  324  cd ..
+  325  history > ~/Lab3/wildcardex3_command_history.txt
+  326  cat ~/Lab3/wildcardex3_command_history.txt
+  327  cd wildcard_lab
+  328  touch {1,2,3}file.txt
+  329  tree
+  330  touch file{4,5}.txt
+  331  tree
+  332  cd ..
+  333  history > ~/Lab2/wildcardex3_command_history.txt
+  334  cat ~/Lab2/wildcardex3_command_history.txt
+  335  tree
+  336  mkdir link_lab
+  337  cd link_lab
+  338  echo "Hello teacher!" > original.txt
+  339  ln -s original.txt symlink.txt
+  340  ln original.txt hardlink.txt
+  341  echo "This updates all!" >> original.txt
+  342  cat original.txt
+  343  cat symlink
+  344  cat symlink.txt
+  345  cat hardlink.txt
+  346  ln -s doesnt_exist.txt brokenlink.txt
+  347  cd ..
+  348  history > ~/lab3/wildcardex4_command_history.txt
+  349  history > ~/Lab3/wildcardex4_command_history.txt

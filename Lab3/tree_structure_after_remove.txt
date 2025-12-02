@@ -1,0 +1,22 @@
+/home/sar-vichada/Lab3
+├── CopyingFolder
+│   ├── copied.txt
+│   ├── five.txt
+│   ├── four.txt
+│   ├── one.txt
+│   ├── three.txt
+│   └── two.txt
+├── Desktop
+│   ├── FrenchFolder
+│   ├── copied.txt
+│   ├── five.txt
+│   ├── four.txt
+│   ├── one.txt
+│   ├── three.txt
+│   └── two.txt
+├── Documents
+├── MoveFolder
+├── tree_structure_after_remove.txt
+└── tree_structure_before_remove.txt
+
+6 directories, 14 files
